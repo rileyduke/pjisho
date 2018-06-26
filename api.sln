@@ -5,6 +5,33 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api", "api\api.csproj", "{62842846-868D-4B6E-A191-C37121587533}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JishoAPI", "..\dotnetjisho\JishoLibrary\JishoAPI\JishoAPI.csproj", "{DA7C33AA-6878-4E81-B675-3C60E6A82F65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewTier", "ViewTier", "{3752830D-6CEB-4A4B-A239-95DD9D6752BE}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "client-react", "client-react\", "{B7FD8039-9BBB-47EF-8A02-8CD4E9135349}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61516"
+		Debug.AspNetCompiler.PhysicalPath = "client-react\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61516\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61516"
+		Release.AspNetCompiler.PhysicalPath = "client-react\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61516\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61516"
+		SlnRelativePath = "client-react\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessTier", "BusinessTier", "{DB59F05E-7E15-436B-8C9E-AE2769C13339}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +42,22 @@ Global
 		{62842846-868D-4B6E-A191-C37121587533}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62842846-868D-4B6E-A191-C37121587533}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62842846-868D-4B6E-A191-C37121587533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA7C33AA-6878-4E81-B675-3C60E6A82F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA7C33AA-6878-4E81-B675-3C60E6A82F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA7C33AA-6878-4E81-B675-3C60E6A82F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA7C33AA-6878-4E81-B675-3C60E6A82F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7FD8039-9BBB-47EF-8A02-8CD4E9135349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7FD8039-9BBB-47EF-8A02-8CD4E9135349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7FD8039-9BBB-47EF-8A02-8CD4E9135349}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7FD8039-9BBB-47EF-8A02-8CD4E9135349}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62842846-868D-4B6E-A191-C37121587533} = {DB59F05E-7E15-436B-8C9E-AE2769C13339}
+		{DA7C33AA-6878-4E81-B675-3C60E6A82F65} = {DB59F05E-7E15-436B-8C9E-AE2769C13339}
+		{B7FD8039-9BBB-47EF-8A02-8CD4E9135349} = {3752830D-6CEB-4A4B-A239-95DD9D6752BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D9B79B38-5ABD-4F48-ADFB-273FEA87D690}
